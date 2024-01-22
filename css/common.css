@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg3.jpeg");
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 85%;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 0.3px solid #222;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.clockDiv {
+    display: block;
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+#notesContainer {
+    margin: 40px 20px 20px 20px;
+}
+
+button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#writerBackBtn, #readerBackBtn {
+    margin: 20px auto;
+    background-color: #333;
+}
+
+#writerBackBtn:hover, #readerBackBtn:hover {
+    background-color: #222;
+}
+
+.note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+textarea {
+    display: inline;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40%;
+    padding: 10px;
+    margin-left: 20%;
+    resize: vertical; 
+}
+
+.readerTextarea {
+    margin-left: 0;
+
+}
+
+button.removeBtn {
+    display: inline;
+    background-color: #e74c3c;
+    margin-left: 30px;
+}
+
+button.removeBtn:hover {
+    background-color: #c0392b;
+}
